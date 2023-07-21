@@ -1,0 +1,17 @@
+
+[2023/7/4 9:29:09][ServerClient]无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。
+StracTrace
+UDebug.GetStackTrace line 0
+UDebug.LogError line 0
+UDebug.LogError line 0
+Server.ServerClient.OnDisconnected line 0
+Server.ServerClient.ReceiveMessage line 0
+System.Net.LazyAsyncResult.Complete line 0
+System.Net.ContextAwareResult.CompleteCallback line 0
+System.Threading.ExecutionContext.RunInternal line 0
+System.Threading.ExecutionContext.Run line 0
+System.Threading.ExecutionContext.Run line 0
+System.Net.ContextAwareResult.Complete line 0
+System.Net.LazyAsyncResult.ProtectedInvokeCallback line 0
+System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback line 0
+System.Threading._IOCompletionCallback.PerformIOCompletionCallback line 0

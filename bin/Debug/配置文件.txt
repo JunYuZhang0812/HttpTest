@@ -1,0 +1,3 @@
+[Config]
+IsServer=false
+[ClientFlag]

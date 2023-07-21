@@ -1,0 +1,16 @@
+
+[2023/7/8 17:21:11][SocketClient]OnRead: _AsyncRead != null && _AsyncRead != asr
+StracTrace
+UDebug.GetStackTrace line 0
+UDebug.LogError line 0
+UDebug.LogError line 0
+SocketClient.OnRead line 0
+System.Net.LazyAsyncResult.Complete line 0
+System.Net.ContextAwareResult.CompleteCallback line 0
+System.Threading.ExecutionContext.RunInternal line 0
+System.Threading.ExecutionContext.Run line 0
+System.Threading.ExecutionContext.Run line 0
+System.Net.ContextAwareResult.Complete line 0
+System.Net.LazyAsyncResult.ProtectedInvokeCallback line 0
+System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback line 0
+System.Threading._IOCompletionCallback.PerformIOCompletionCallback line 0
